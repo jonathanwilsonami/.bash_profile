@@ -4,9 +4,9 @@ if [ -f ~/.bashrc ]; then
 fi
 
 #Cusomize my prompt
-PS1="[\[\033[32m\]\u"; #Current User - color
-PS1+="\[\033[37m\]@\h " #Host - color
-PS1+="\[\033[34m\]\W" #Current Directory- color
+PS1="[\[\033[32m\]\u"; #Current User - color green
+PS1+="\[\033[37m\]@\h " #Host - color white
+PS1+="\[\033[34m\]\W" #Current Directory- color blue
 PS1+="$(tput sgr0)]" #Keep last color from leaking over
 export PS1;
 
